@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+@font-face{
+	font-family:'Roboto';
+	font-style: normal;
+	font-weight: 100;
+	src:local("Roboto Thin"),local(Roboto-Thin),url(https://fonts.gstatic.com/s/roboto/v16/2tsd397wLxj96qwHyNIkxHYhjbSpvc47ee6xR_80Hnw.woff2) format("woff2");
+}
+.primer{
+  height: 650px;
+  background-image: url('https://assets.awwwards.com/bundles/tvweb/images/book/2017/case-studies-vol3/bg.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+p{
+	color: white;
+	font-size: 18px;
+	
+}
+
+.texto{
+	color: white;
+	font-size: 50px;
+}
+
+.logo{
+	height: 50px;
+	width: auto;
+}
+
+.buttonD{
+	height: 50px;
+	width: 25%;
+	line-height: 50px;
+	background-color:  #64b49f;
+	align-self: center;
+	margin: auto;
+	text-align: center;
+	color: white;
+	font-family: 'Roboto';
+}
+
+.buttonD:hover{
+	cursor: pointer;
+	opacity: 0.5;
+	transition-duration: 1s; 
+}
+
+.logo:hover{
+	cursor: pointer;
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+.facebook{
+	height: 20px;
+	width: auto;
+}
+.twitter1{
+	height: 30px;
+	width: auto;
+}
+.gplus{
+	height: 25px;
+	width: auto;
+}
+.pinterest{
+	height: 20px;
+	width: auto;
+}
+
+.facebook:hover{
+	cursor: pointer;
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+
+.twitter1:hover{
+	cursor: pointer;
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+
+.gplus:hover{
+	cursor: pointer;
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+
+.pinterest:hover{
+	cursor: pointer;
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+
+.redes{
+	width: 30%;
+	right:200px;
+	float: right;
+
+}
+.linea{
+	color: white;
+	font-size: 60px;
+	font-family: Roboto;
+}
+
+.textoE{
+	background-color: #404040;
+	width: 100%;
+	height: auto;
+}
+.contexto{
+	width: 25%;
+	height: auto;
+	text-align: left;
+	font-family: Roboto;
+	display: inline-block;
+}
+
+#textoT{
+	font-size: 20px;
+	font-weight: bold;
+}
+.fotos{
+	height: 300px;
+	background-color: black;
+	position: relative;
+}
+.pics{
+	height: 100%;
+	display: inline-block;
+	/*z-index: 5;*/
+	position: absolute;
+}
+.gradiente{
+	background:linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	position: absolute;
+
+}
+
+.fotos:hover{
+	cursor: grab;
+}
