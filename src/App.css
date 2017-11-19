@@ -2,16 +2,23 @@
   text-align: center;
 }
 @font-face{
-	font-family:'Roboto';
+	font-family:'Roboto Thin';
 	font-style: normal;
 	font-weight: 100;
 	src:local("Roboto Thin"),local(Roboto-Thin),url(https://fonts.gstatic.com/s/roboto/v16/2tsd397wLxj96qwHyNIkxHYhjbSpvc47ee6xR_80Hnw.woff2) format("woff2");
 }
+@font-face {
+  font-family: 'Roboto Normal';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v18/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
 .primer{
-  height: 650px;
+  height: 700px;
   background-image: url('https://assets.awwwards.com/bundles/tvweb/images/book/2017/case-studies-vol3/bg.jpg');
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: round;
   background-position: center;
 }
 
@@ -20,10 +27,14 @@ p{
 	font-size: 18px;
 	
 }
+button{
+	width: 50%;
+	background-color: #404040;
+	color:white;
 
-.texto{
-	color: white;
-	font-size: 50px;
+}
+.tituloTop{
+	width: 25%;
 }
 
 .logo{
@@ -32,15 +43,15 @@ p{
 }
 
 .buttonD{
-	height: 50px;
+	height: 75px;
 	width: 25%;
-	line-height: 50px;
-	background-color:  #64b49f;
+	line-height: 75px;
+	background-color:  #53ac94;
 	align-self: center;
 	margin: auto;
 	text-align: center;
 	color: white;
-	font-family: 'Roboto';
+	font-family: 'Roboto Normal';
 }
 
 .buttonD:hover{
@@ -54,47 +65,19 @@ p{
 	opacity: 0.5;
 	transition-duration: 1s;
 }
-.facebook{
-	height: 20px;
-	width: auto;
+.social{
+	color:white;
+	font-size: 25px;
 }
-.twitter1{
-	height: 30px;
-	width: auto;
-}
-.gplus{
-	height: 25px;
-	width: auto;
-}
-.pinterest{
-	height: 20px;
-	width: auto;
-}
-
-.facebook:hover{
+.social:hover{
 	cursor: pointer;
 	opacity: 0.5;
 	transition-duration: 1s;
 }
-
-.twitter1:hover{
-	cursor: pointer;
-	opacity: 0.5;
-	transition-duration: 1s;
+.twitter2{
+	color:white;
+	font-size: 150px;
 }
-
-.gplus:hover{
-	cursor: pointer;
-	opacity: 0.5;
-	transition-duration: 1s;
-}
-
-.pinterest:hover{
-	cursor: pointer;
-	opacity: 0.5;
-	transition-duration: 1s;
-}
-
 .redes{
 	width: 30%;
 	right:200px;
@@ -104,7 +87,7 @@ p{
 .linea{
 	color: white;
 	font-size: 60px;
-	font-family: Roboto;
+	font-family: Roboto Thin;
 }
 
 .textoE{
@@ -116,7 +99,7 @@ p{
 	width: 25%;
 	height: auto;
 	text-align: left;
-	font-family: Roboto;
+	font-family: Roboto Thin;
 	display: inline-block;
 }
 
@@ -129,21 +112,90 @@ p{
 	background-color: black;
 	position: relative;
 }
+
 .pics{
-	height: 100%;
+	height: 300px;
 	display: inline-block;
-	/*z-index: 5;*/
-	position: absolute;
 }
 .gradiente{
 	background:linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));;
 	height: 100%;
-	width: 100%;
 	z-index: 10;
-	position: absolute;
-
 }
 
 .fotos:hover{
 	cursor: grab;
+}
+
+.tst{
+	height: 50px;
+	width: 50px;
+	background-color: red;
+}
+
+.espacio{
+	height: 60px;
+}
+
+.contexto2{
+	width: 25%;
+	height: auto;
+	text-align: center;
+	font-family: Roboto Thin;
+	display: inline-block;
+}
+
+.bookpic{
+	width: 100%;
+	cursor: pointer;
+}
+.Card{
+	background-color: #4d4d4d;
+	width: 45%;
+	text-align: left;
+	margin: 10px;
+}
+.description{
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: roboto thin;
+	font-size: 10px;
+}
+
+.dd{
+	font-size: 15px;
+}
+.cTitle{
+	font-family: roboto normal;
+	font-size: 15px;
+}
+.cTitle:hover{
+	cursor:pointer;
+	color:#d9d9d9;
+}
+.viewer{
+	background-color: #404040;
+	display: flex;
+	flex-wrap: row-wrap;
+}
+.espacio2{
+	height: 100px;
+}
+.visor{
+	cursor: grab;
+}
+
+.mano{
+	color: white;
+	font-size: 30px;
+	text-align: right;
+	position: relative;
+	animation: movimiento 2s infinite;
+}
+@keyframes movimiento{
+	0% {right: 0px;}
+	25% {right: 20px;}
+	50% {right: 0px;}
+	75% {right: 20px;}
+	100% {right: 0px;}
 }
