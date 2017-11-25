@@ -3,7 +3,6 @@ import TiSocialTwitter from 'react-icons/lib/ti/social-twitter';
 import TiSocialFacebook from 'react-icons/lib/ti/social-facebook';
 import TiSocialGooglePlus from 'react-icons/lib/ti/social-google-plus';
 import TiSocialPinterest from 'react-icons/lib/ti/social-pinterest';
-
 class Top extends Component{
 
 render() {
@@ -11,7 +10,7 @@ render() {
 	<div className="primer" >
                 <p className>SPEED MATTERS:</p>
                 <p>DESIGNING FOR MOBILE PERFORMACE</p>
-                <img className='tituloTop' src='https://assets.awwwards.com/bundles/tvweb/images/book/2017/case-studies-vol3/parallax-layer1.png'/>
+                <p className='brainfood'>100% <br />BRAIN <br />FOOD!</p>
                 <p>A special collaboration with:</p>
                 <div className="linea">|</div>
                 <a href='https://developers.google.com/'>
