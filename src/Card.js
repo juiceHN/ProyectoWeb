@@ -6,7 +6,9 @@ class Card extends Component{
 		return(
 			<div className='Card'>
 				<a href={this.props.link}>
-				<img className='bookpic' src={this.props.imglink} />
+				<img className='bookpic' 
+				src={this.props.imglink} 
+				alt='foto'/>
 				</a>
 				<div className='description'>
 					<a href={this.props.link}>

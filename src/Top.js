@@ -14,7 +14,11 @@ render() {
                 <p>A special collaboration with:</p>
                 <div className="linea">|</div>
                 <a href='https://developers.google.com/'>
-                <img className="logo" src="https://vignette.wikia.nocookie.net/logopedia/images/6/68/Google_logo_white_2015.png/revision/latest/scale-to-width-down/640?cb=20150901162827"/>
+                <img 
+                className="logo" 
+                src="https://vignette.wikia.nocookie.net/logopedia/images/6/68/Google_logo_white_2015.png/revision/latest/scale-to-width-down/640?cb=20150901162827"
+                alt="Google"
+                />
                 </a>
                 <div className='espacio'/>
                 <a href='https://www.awwwards.com/brain-food-perceived-performance/'>
